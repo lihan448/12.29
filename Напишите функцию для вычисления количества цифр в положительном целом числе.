@@ -1,0 +1,11 @@
+deffun1（m）：
+n=0
+while m>0: m=m//10
+n=n+1
+return n
+def fun2(m): s=str(m)
+return len(s)
+def main():
+x=int(input())
+print(fun2(x))
+main()
